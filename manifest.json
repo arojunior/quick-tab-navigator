@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Tab Navigator",
+  "version": "1.0.0",
+  "description": "Navigate through your Chrome tabs in the order you visited them, similar to VSCode's cursor position navigation",
+  "permissions": [
+    "tabs",
+    "tabGroups"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "navigate-back": {
+      "suggested_key": {
+        "default": "Alt+Left",
+        "mac": "Alt+Left"
+      },
+      "description": "Navigate to previous tab in visit history"
+    },
+    "navigate-forward": {
+      "suggested_key": {
+        "default": "Alt+Right",
+        "mac": "Alt+Right"
+      },
+      "description": "Navigate to next tab in visit history"
+    }
+  }
+}
