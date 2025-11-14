@@ -1,6 +1,6 @@
 # Quick Tab Navigator
 
-A Chrome extension that allows you to navigate through your tabs in the order you visited them, similar to IntelliJ's cursor position navigation. Uses `Option + Left/Right Arrow` by default.
+A Chrome extension that allows you to navigate through your tabs in the order you visited them, similar to VSCode's cursor position navigation. Uses `Option + Left/Right Arrow` by default.
 
 ## Features
 
@@ -24,6 +24,7 @@ A Chrome extension that allows you to navigate through your tabs in the order yo
 ### Keyboard Shortcuts
 
 **Default Shortcuts** (automatically set):
+
 - **Navigate Back**: `Option + Left Arrow` (Mac) or `Alt + Left Arrow` (Windows/Linux)
 - **Navigate Forward**: `Option + Right Arrow` (Mac) or `Alt + Right Arrow` (Windows/Linux)
 
@@ -37,6 +38,7 @@ If you want to change the shortcuts:
 4. Press your desired key combination
 
 **Available Modifier Combinations**:
+
 - `Option + Key` ✅ (default - simple and clean!)
 - `Command + Shift + Key` ✅
 - `Command + Key` ✅
@@ -89,4 +91,3 @@ quick-tab-navigator/
 ## License
 
 MIT
-
