@@ -5,7 +5,8 @@
   "description": "Navigate through your Chrome tabs in the order you visited them, similar to VSCode's cursor position navigation",
   "permissions": [
     "tabs",
-    "tabGroups"
+    "tabGroups",
+    "storage"
   ],
   "background": {
     "service_worker": "background.js"
